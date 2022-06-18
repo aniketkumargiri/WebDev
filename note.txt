@@ -1,0 +1,7 @@
+cd --> change directory  press tab (we will get all folder/file which is available in that particular folder)
+
+cd .. --> cd (double dot) --> we will come back to the previous folder
+
+Git command:-
+git pull --> it will fetch branch/latest code from the master/main branch
+
