@@ -5,7 +5,7 @@ cd .. --> cd (double dot) --> we will come back to the previous folder
 Git command:-
 git pull --> it will fetch branch/latest code from the master/main branch
 
-git pull
+git pull origin main
 git add .
 git commit -m "message"
 git push
