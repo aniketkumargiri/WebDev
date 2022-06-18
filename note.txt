@@ -3,5 +3,8 @@ cd --> change directory  press tab (we will get all folder/file which is availab
 cd .. --> cd (double dot) --> we will come back to the previous folder
 
 Git command:-
-git pull --> it will fetch branch/latest code from the master/main branch
 
+git add .
+git commit -m "message"
+git push
+git pull origin main --> it will fetch branch/latest code from the master/main branch
