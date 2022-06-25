@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-08</title>
+
+    <style>
+        .building_block{
+            background-color: rgb(169, 169, 162);
+            color: rgb(248, 11, 98);
+        }
+        .morning_block{
+            color: rgb(137, 234, 19);
+        }
+        #mrg1, #mrg2{
+            background-color: rgb(223, 23, 193);
+            border: 2px solid red;
+            border-radius: 30%;
+        }
+        #dolor{
+            color: rgb(156, 19, 225);
+        }
+        #text{
+            border: 8px groove rgb(9, 121, 241);
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a title="Go to Bottom" href="#bottom">Jump to Bottom</a>
+    </div>
+
+    <div class="building_block" id="text">
+        <p id="building">This is a new building <span id="dolor"> Lorem ipsum </span> dolor sit amet, consectetur adipisicing elit. Porro ad a accusantium labore </p>
+    </div>
+
+    <div class="morning_block building_block" id="morning">
+        <p id="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatibus quibusdam harum voluptates animi reprehenderit molestias commodi laudantium non iste? Lorem ipsum dolor sit <span class="building_block"> amet consectetur, adipisicing elit. Sint explicabo ipsa tempora corporis provident modi iusto, aut nesciunt inventore repudiandae!</span>
+        </p>
+        <span id="mrg1">Good Morning</span>
+        <span id="mrg2">Good Night</span>
+    </div>
+
+    <div id="bottom">
+        Come below
+    </div>
+</body>
+
+</html>
