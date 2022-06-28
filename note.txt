@@ -1,10 +1,18 @@
-cd --> change directory  press tab (we will get all folder/file which is available in that particular folder)
+Change directory  press tab (we will get all folder/file which is available in that particular folder)
+--> cd 
+cd (double dot) --> we will come back to the previous folder
+--> cd .. 
 
-cd .. --> cd (double dot) --> we will come back to the previous folder
+***Git command:-***
 
-Git command:-
+Open source control and select changes file by pressing plus(+)
+--> git add .(dot)
+Then commit(tick sign) by adding some message
+--> git commit -m "message"
+And finally sync changes(push: code pushed to local branch {aniket}) 
+--> git push 
+From github, we can compare pull request and merge changes with the main branch
 
-git add .
-git commit -m "message"
-git push
 git pull origin main --> it will fetch branch/latest code from the master/main branch
+
+git clone https://github.com/aniketkumargiri/WebDev.git --> For cloning the code 
