@@ -1,0 +1,22 @@
+/* Simple Selectors */
+
+/* style with tags name */
+h3 {
+    background-color: rgb(110, 218, 57);
+    color: rgb(194, 28, 117);
+    border: 2px solid cyan;
+}
+
+/* style with class name */
+.head1 {
+    background-color: rgb(123, 123, 245);
+}
+
+/* style with id name */
+#sp1 {
+    color: rgb(13 242 225);
+}
+
+.nested {
+    border: 3px groove rgb(223, 52, 78);
+}
