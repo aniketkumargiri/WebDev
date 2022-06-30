@@ -1,0 +1,25 @@
+/* Universal selector */
+* {
+    text-align: center;
+    /* border: 4px dashed blue;
+    background-image: url('/IMAGE/nature.jpg');
+    background-repeat: no-repeat; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Grouping multiple selectors */
+h1,
+h2,
+p {
+    background-color: rgb(235, 235, 9);
+    color: blue;
+}
+
+/* Tags combined with id or class */
+h1.hd {
+    border: 3px groove red;
+}
+
+p#bottom {
+    font-family: cursive;
+}
