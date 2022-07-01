@@ -1,0 +1,21 @@
+/* CSS Combinators */
+
+/* Descendant Selector */
+div p {
+    background-color: red;
+}
+
+div section p {
+    background-color: orange;
+}
+
+section p,
+h3 {
+    background-color: blue;
+}
+
+section p,
+section h1,
+h1 {
+    background-color: yellowgreen;
+}
