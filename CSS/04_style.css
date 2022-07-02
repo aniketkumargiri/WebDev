@@ -1,0 +1,23 @@
+/* Child Selector */
+div>p {
+    background-color: violet;
+}
+
+div>section>p {
+    background-color: yellowgreen;
+}
+
+section>p,
+h1 {
+    background-color: orange;
+}
+
+div>h1,
+h3 {
+    background-color: red;
+}
+
+div>em {
+    border: 4px groove black;
+    border-radius: 20%;
+}
