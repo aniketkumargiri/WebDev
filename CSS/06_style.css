@@ -1,0 +1,12 @@
+/* General Sibling Selectors */
+div~p,
+section em {
+    background-color: yellow;
+}
+
+section~span {
+    background-color: red;
+    color: rgb(15, 227, 177);
+    padding: 4px;
+    font-size: 22px;
+}
