@@ -1,0 +1,15 @@
+/* Background Property */
+.bodySec {
+    /* background-color: rgb(158, 228, 207);
+    background-image: url(/IMAGE/workplace.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll; */
+    background: #ffbbbb url(/IMAGE/cellphone.jpg) no-repeat right top fixed;
+}
+
+.heading {
+    color: #880101;
+    border: 2px solid tomato;
+    background-color: rgb(0, 204, 255);
+}
