@@ -1,0 +1,34 @@
+/* Margin */
+.heading1 {
+    color: rgb(111, 3, 3);
+    background-color: aqua;
+    border: 4px solid yellow;
+
+    /* margin-top: 4px;
+    margin-right: 200px;
+    margin-bottom: 12px;
+    margin-left: 50px; */
+
+    /* margin: 50px 200px 30px; */
+    /* margin: 50px 100px 30px 400px; */
+    /* margin: 50px 400px; */
+    margin: 100px;
+
+    /* margin: auto; */
+    /* margin: 0px; */
+}
+
+div {
+    border: 1px solid red;
+    margin-left: 100px;
+    /* margin-top: 80px; */
+    /* margin-right: 300px; */
+    margin-bottom: 50px;
+}
+
+p.ex1 {
+    margin-left: inherit;
+    /* same margin as its parent. In this case parent of p is div */
+    /* margin-right: inherit; */
+    margin-bottom: inherit;
+}
